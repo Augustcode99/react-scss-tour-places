@@ -1,7 +1,6 @@
-import React from "react";
-
+import headerStyle from "../scss/header.module.scss";
 const Header = () => {
-  return <div>Header</div>;
+  return <h1 className={headerStyle.header}>PLACES TO VISIT</h1>;
 };
 
 export default Header;
